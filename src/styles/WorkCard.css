@@ -1,0 +1,260 @@
+/* estilos generales */
+.workCard{
+    position: relative;
+    width: 300px;
+    height: 375px;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid var(--black);
+    
+    cursor: pointer;
+    overflow: hidden;
+    color: var(--black);
+}
+
+.workCard-link{
+    filter: drop-shadow(3px 3px 2px var(--black));
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+}
+
+.overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    font-family: var(--fontTitle);
+    color: var(--white);
+    background-color: var(--black);
+    position: absolute;
+    width: 300px;
+    height: 375px;
+    opacity: .8;
+    top: 100%;
+    z-index: 10;
+    transition: .5s;
+}
+
+.workCard-link:hover .overlay{
+    top: 0;
+    transition: .5s;
+}
+
+/* --- #1 --- */
+.card-1{
+    background-image: url(../assets/img/works/soccer_bg.jpg);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-1 .workImage{
+    position: absolute;
+    bottom: 10px;
+    left:0;
+    width: 250px;
+    filter: drop-shadow(5px 5px 3px var(--black));
+}
+
+.card-1 .workTitle{
+    font-family: var(--fontSubTitle);
+    font-size: 90px;
+    font-weight: 100;
+    color: var(--yellowSuperHero);
+    text-shadow: 6px -4px 1px var(--black);
+    order: 2;
+    text-align: center;
+    line-height: 60px;
+}
+
+.card-1 .workSubTitle{
+    font-family: var(--fontSubTitle);
+    font-size: 30px;
+    text-align: right;
+    padding-right: 20px;
+    order: 1;
+    margin-top: 20px;
+}
+
+.card-1 .workExtra{
+    width: 90px;
+    text-align: center;
+    font-family: var(--fontTitle);
+    font-size: 40px;
+    padding: 0 10px;
+    line-height: 30px;
+    outline: 1px solid var(--black);
+    background-color: var(--yellowSuperHero);
+}
+
+.card-1 .workNumber{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-family: var(--fontSubTitle);
+    font-size: 80px;
+    text-shadow: 3px 3px 1px var(--black);
+    color: var(--redSuperHero);
+    transform: rotate(20deg);
+    z-index: 1;
+}
+
+.card-1 .work-otherImage{
+    position: absolute;
+    width: 100px;
+    bottom: 0;
+    right: 0px;
+}
+
+/* --- #2 --- */
+.card-2{
+    background-image: url(../assets/img/works/city_bg.jpg);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-2 .workExtra{
+    background-color: var(--white);
+    width: 80px;
+    font-family: var(--fontTitle);
+    font-size: 40px;
+    line-height: 30px;
+    text-align: center;
+    outline: 1px solid var(--black);
+}
+
+.card-2 .workTitle{
+    font-family: var(--fontTitle);
+    font-size: 80px;
+    text-align: center;
+    font-weight: 100;
+    color: #440282;
+    text-shadow: 2px 2px 1px var(--black);
+    line-height: 30px;
+    order: 1;
+}
+
+.card-2 .workSubTitle{
+    font-family: var(--fontTitle);
+    font-size: 30px;
+    font-weight: 100;
+    text-align: right;
+    padding-right: 30px;
+    order: 2;
+}
+
+.card-2 .workImage{
+    position: absolute;
+    width: 230px;
+    bottom: 0;
+    right: 0;
+}
+
+.card-2 .workNumber{
+    order: 0;
+    text-align: right;
+    margin: 20px 20px 0 0 ;
+    font-family: var(--fontSubTitle);
+    font-size: 60px;
+    color: var(--yellowSuperHero);
+    text-shadow: 3px 3px 1px var(--black);
+    transform: rotate(-20deg);
+}
+
+/* --- #3 --- */
+.card-3{
+    background-image: url(../assets/img/works/cuba2.png);
+    display: flex;
+    font-family: var(--fontTitle);
+}
+
+.card-3 .workExtra{
+    order: 1;
+    font-family: var(--fontSubTitle);
+    font-size: 20px;
+    width: 50px;
+    background-color: var(--white);
+    height: max-content;
+    padding: 5px;
+    text-align: center;
+    outline: 1px solid var(--black);
+}
+
+
+.card-3 .workNumber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: 2;
+    font-family: var(--fontSubTitle);
+    font-size: 25px;
+    background-color: var(--yellowSuperHero);
+    height: 50px;
+    width: 40px;
+    outline: 1px solid var(--black);
+    margin-left: 1px;
+    
+}
+
+.card-3 .workSubTitle{
+    order: 4;
+    font-size: 30px;
+    flex-shrink: 1;
+    text-align: center;
+    color: var(--yellowSuperHero);
+    font-weight: 100;
+    margin-top: 100px;
+    transform: rotate(-10deg);
+}
+
+.card-3 .workTitle{
+    order: 3;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 50px;
+    width: 100px;
+    font-weight: 100;
+}
+
+/* --- #4 --- */
+.card-4{
+    background-image: url(../assets/img/works/WorkComic_bg.png);
+    font-family: var(--fontTitle);
+}
+
+.card-4 .workSubTitle{
+    font-size: 30px;
+    font-weight: 100;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.card-4 .workTitle{
+    font-size: 80px;
+    font-weight: 100;
+    text-align: center;
+    text-shadow: 1px 1px 1px var(--white);
+}
+
+.card-4 .workImage{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.card-4 .workNumber{
+    position: absolute;
+    outline: 1px solid var(--black);
+    background-color: var(--white);
+    width: max-content;
+    padding: 5px;
+    font-family: var(--fontSubTitle);
+    font-weight: 100;
+    font-size: 40px;
+    transform: rotate(-25deg);
+    left: 20px;
+}

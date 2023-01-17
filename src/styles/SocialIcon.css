@@ -1,0 +1,24 @@
+.socialIcon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialIcon-link{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.socialIcon-link svg{
+    font-size: 40px;
+    color: var(--black);
+    transition: .3s;
+}
+
+.socialIcon-link:hover  svg{
+    color: var(--yellowSuperHero);
+    filter: drop-shadow(1px 1px 1px var(--redSuperHeroStrong)) ;
+    transition: .1s;
+}

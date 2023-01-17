@@ -1,0 +1,35 @@
+.backArrow{
+    position: fixed;
+    top: 30px;
+    left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    cursor: pointer;
+    background-color: var(--black);
+    width: 130px;
+    height: 40px;
+    
+}   
+
+.backArrow span{
+    font-weight: 100;
+    font-family: var(--fontTitle);
+    font-size: 40px;
+    color: var(--white);
+    transition: .3s;
+}
+
+.backArrow:hover span{
+    font-size: 50px;
+    transition: .3s;
+}
+
+@media (max-width: 720px) {
+    .backArrow{
+        top: 100px;
+        left: unset;
+        right: 0px;
+    }
+}

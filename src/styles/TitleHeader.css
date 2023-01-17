@@ -1,0 +1,21 @@
+.titleHeader-container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 40px 0;
+}
+
+.titleHeader-text{
+    font-family: var(--fontTitleShadow);
+    font-size: var(--fontSize-TitleShadow-lg);
+    font-weight: 100;
+    letter-spacing: 5px;
+    color: var(--black);
+}
+
+@media (max-width: 768px) {
+    .titleHeader-text{
+        font-size: var(--fontSize-TitleShadow-md);
+    }
+}

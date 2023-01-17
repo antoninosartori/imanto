@@ -1,0 +1,28 @@
+.itemText-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: var(--fontComic);
+    font-size: 24px;
+}
+
+.itemText-textHead{
+    font-weight: 100;
+    margin: 5px;
+}
+
+@media (max-width: 768px){
+    .itemText-container{
+        padding: 0 40px;
+        flex-wrap: wrap;
+    }
+    .itemText-textBody{
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px){
+    .itemText-container{
+        padding: 0 10px;
+    }
+}

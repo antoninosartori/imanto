@@ -1,0 +1,47 @@
+.techsContainer{
+    max-width: 992px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.header-techsContainer {
+    margin-bottom: 40px;
+}
+
+.header-techsContainer h2{
+    font-family: var(--fontTitle);
+    font-size: 80px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.body-techs{
+    display: flex;
+    justify-content: center;
+}
+
+.strongTechs{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.intermediateTechs{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media (max-width:576px) {
+    .body-techs{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+

@@ -1,0 +1,327 @@
+[
+    {
+        "id": 1,
+        "backdrop_path": "https://drive.google.com/uc?export=view&id=1iZsCyg3zlWgAXgbRiDaSLzOYmYUJm14_&rl",
+        "project_title": "liga gchu",
+        "overview": "Departmental Football League of Gualeguaychu is a website where you can find the results, positions and information of your favorite team",
+        "paint_project": 
+            [
+                {
+                    "color1": "#1c2039",
+                    "color2": "#fff",
+                    "color_bg": "#d9d9d9"
+                }
+            ],
+        "project_info": 
+            [   
+                {
+                    "project_name": "liga de futbol departamental de Gualeguaychu",
+                    "project_year": "2021",
+                    "project_author": "Antonino Sartori",
+                    "project_techs": "html, css, sass, javascript",
+                    "isAward_winning": true
+                }
+            ],
+        "links": 
+            [
+                {
+                    "link_name": "link",
+                    "path": "https://ligagchu.netlify.app/"
+                },
+                {
+                    "link_name": "repo",
+                    "path": "https://github.com/antoninosartori/coder-project"
+                }
+            ],
+        "images": 
+            [
+                {
+                    "image_path": "https://drive.google.com/uc?export=view&id=1na7EPI20pbIUOMFaiUIr4pYeFcRSvTsp&rl",
+                    "image_description": "all the matches of the first division and the second division of departmental soccer. daily news about teams and the organization, updated to the last minute" 
+                },
+                {
+                    "image_path": "https://drive.google.com/uc?export=view&id=1SipEgd_kb2CwmXsdWUjbyY_4zpXB4GIT&rl",
+                    "image_description": "The site has five sections: home, news, positions, calendar, contact. each team is represented with its name, short name and its shield. The site also has a dark mode for those who love this theme"
+                }
+            ],
+        "colors": 
+            [
+                {
+                    "name": "primaryBlue",
+                    "code": "#1c2039"
+                },
+                {
+                    "name": "primaryWhite",
+                    "code": "#fff"
+                },
+                {
+                    "name": "secondaryBlue",
+                    "code": "#504e66"
+                },
+                {
+                    "name": "secondaryGray",
+                    "code": "#d9d9d942"
+                },
+                {
+                    "name": "darkMode-Blue",
+                    "code": "#121426"
+                },
+                {
+                    "name": "darkMode-White",
+                    "code": "#fff"
+                },
+                {
+                    "name": "darkMode-SecondaryGray",
+                    "code": "#e3e3e35b"
+                }
+            ],
+        "fonts": 
+            [
+                {
+                    "font_name": "roboto",
+                    "h1": "40px",
+                    "h2": "25px",
+                    "p": "20px"
+                }
+            ]
+    },
+    {
+        "id": 2,
+        "backdrop_path": "https://drive.google.com/uc?export=view&id=1CFp3LqcNOOxR1Vfqedd_EXp-UyQGCkIT&rl",
+        "project_title": "pochoclo",
+        "overview": "pochoclo app is a place where you can find your favorite series and movies quickly and easily. The information is obtained thanks to the API - The movie Database",
+        "paint_project": 
+            [
+                {
+                    "color1": "#E4E4E4",
+                    "color2": "#120C1A",
+                    "color_bg": "#1B1029"
+                }
+            ],
+        "project_info": 
+            [   
+                {
+                    "project_name": "pocholo app",
+                    "project_year": "2022",
+                    "project_author": "Antonino Sartori",
+                    "project_techs": "html, css, javascript, react, axios",
+                    "isAward_winning": false
+                }
+            ],
+        "links": 
+            [
+                {
+                    "link_name": "repo",
+                    "path": "https://github.com/antoninosartori/platzi-moviesApp"
+                }
+            ],
+        "images": 
+            [
+                {
+                    "image_path": "https://drive.google.com/uc?export=view&id=1tcdl7HYP0bzPhVXniEYqvgdQ7Rck1FWE&rl",
+                    "image_description": "this project was created to complete a course taken at the Platzi academy. The application has a home section where it shows the trending movies and tv-shows." 
+                },
+                {
+                    "image_path": "https://drive.google.com/uc?export=view&id=1qSDYb2w-xxedypdAHxPPy1DXdG_-z4a_&rl",
+                    "image_description": "You can search for any movie or tv show of your choice. The application shows the matches in real time"
+                },
+                {
+                    "image_path": "https://drive.google.com/uc?export=view&id=1Es6Damjhp-3i8AYRqtHV8upMGn0APLu0&rl",
+                    "image_description": "a particular search by categories is also possible"
+                },
+                {
+                    "image_path": "https://drive.google.com/uc?export=view&id=1JOlTjw7RtgNl9KZYJFntySGuaPvoNdQE&rl",
+                    "image_description": "relive great successes and get information about the best of cinema"
+                },
+                {
+                    "image_path": "https://drive.google.com/uc?export=view&id=1yvmvo-0MFEADo9lBIMpOFL3OyT-nsqHe&rl",
+                    "image_description": "all seasons brought from the database to have updated information about your favorite tv shows"
+                }
+            ],
+        "colors": 
+            [
+                {
+                    "name": "light-Purple",
+                    "code": "#442b65"
+                },
+                {
+                    "name": "medium-Purple",
+                    "code": "#1B1029"
+                },
+                {
+                    "name": "Dark-Purple",
+                    "code": "#120C1A"
+                },
+                {
+                    "name": "white",
+                    "code": "#E4E4E4"
+                },
+                {
+                    "name": "dark-Shadow",
+                    "code": "#0a0313"
+                }
+            ],
+        "fonts": 
+            [
+                {
+                    "font_name": "JejuGothic-Regular",
+                    "h1": "24px",
+                    "h2": "20px",
+                    "p": "16px"
+                }
+            ]
+    },
+    {
+        "id": 3,
+        "backdrop_path": "https://drive.google.com/uc?export=view&id=1l7GnI_N9EzeBIzeIsPO-47EvFpBcudek&rl",
+        "project_title": "culturas y raices",
+        "overview": "culturas y raices is a tourism company that works virtually making trips in argentina and different parts of the world. This work was created with the Kumpel team",
+        "paint_project": 
+            [
+                {
+                    "color1": "#D69E47",
+                    "color2": "#fff",
+                    "color_bg": "#ffe2b5"
+                }
+            ],
+        "project_info": 
+            [   
+                {
+                    "project_name": "culturas y racies",
+                    "project_year": "2022",
+                    "project_author": "Kumpel",
+                    "project_techs": "html, css, javascript, bootstrap",
+                    "isAward_winning": false
+                }
+            ],
+        "links": 
+            [
+                {
+                    "link_name": "link",
+                    "path": "https://www.culturasyraices.tur.ar/"
+                }
+            ],
+        "images": 
+            [
+                {
+                    "image_path": "https://drive.google.com/uc?export=view&id=1fiZIeUO5PVodweeBVOiU_qqf6V42d4U-&rl",
+                    "image_description": "the site is a one page web in descending form. It has a cover section, destination, about and contact section.." 
+                },
+                {
+                    "image_path": "https://drive.google.com/uc?export=view&id=124SoWGo6mjm9XZDRKtyLO94Ud1P_3YR1&rl",
+                    "image_description": "You can book a trip by clicking and asking for information through the contact form." 
+                },
+                {
+                    "image_path": "https://drive.google.com/uc?export=view&id=1gU5pBvUnpcJeqP49Dg75yh3WJ-TGf6d-&rl",
+                    "image_description": "delicate animations make the site smooth and precise." 
+                }
+            ],
+        "colors": 
+            [
+                {
+                    "name": "primaryBlue",
+                    "code": "#181E4B"
+                },
+                {
+                    "name": "primaryBrown",
+                    "code": "#D69E47"
+                },
+                {
+                    "name": "primaryWhite",
+                    "code": "#ffffff"
+                },
+                {
+                    "name": "secondaryBlue",
+                    "code": "#5E6282"
+                }
+            ],
+        "fonts": 
+            [
+                {
+                    "font_name": "Poppins",
+                    "h1": "2.5rem",
+                    "h2": "1.5rem",
+                    "p": "1rem"
+                }
+            ]
+    },
+    {
+        "id": 4,
+        "backdrop_path": "https://drive.google.com/uc?export=view&id=1kcRWAQJn8u8tGBeVnzSdtryeNRPU77jx&rl",
+        "project_title": "i'm anto",
+        "overview": "this is my personal portfolio and my greatest work. thank you for visit it. I will happy to talk with you.",
+        "paint_project": 
+            [
+                {
+                    "color1": "#fff",
+                    "color2": "#000",
+                    "color_bg": "#9c0202"
+                }
+            ],
+        "project_info": 
+            [   
+                {
+                    "project_name": "i'm anto",
+                    "project_year": "2023",
+                    "project_author": "Antonino Sartori",
+                    "project_techs": "react, vite, react-router-dom, emailjs",
+                    "isAward_winning": false
+                }
+            ],
+        "links": 
+            [
+                
+            ],
+        "images": 
+            [
+                {
+                    "image_path": "https://drive.google.com/uc?export=view&id=1jSSQX9eWyDLvWePD1zFuHtCHSE-GsZGe&rl",
+                    "image_description": "The portfolio has four sections: home, about, works and contact section. Navigation is given quickly and easily thanks to react-router-dom" 
+                },
+                {
+                    "image_path": "https://drive.google.com/uc?export=view&id=1gnOl6A--HUWPwMn798tn2ArrnXceJOV6&rl",
+                    "image_description": "The most challenging but rewarding was the comic section. It is made with pure css positioning elements and magic. I really enjoyed this part" 
+                },
+                {
+                    "image_path": "https://drive.google.com/uc?export=view&id=10tenmppjT1B5a4jmzhcaLopoIz8Cd7aC&rl",
+                    "image_description": "the back of the works section is a json file which brings the projects created by me. It is done through a fetch and allows you to dynamically load project details." 
+                },
+                {
+                    "image_path": "https://drive.google.com/uc?export=view&id=1bRdbATzAfbFrAI5Xim463DpF4lk48Wfn&rl",
+                    "image_description": "the contact section uses the email.js library. It has a state of charge to set according to the moment. I invite you to try it" 
+                }
+            ],
+        "colors": 
+            [
+                {
+                    "name": "black",
+                    "code": "#000000"
+                },
+                {
+                    "name": "white",
+                    "code": "#ffffff"
+                },
+                {
+                    "name": "yellow-superhero",
+                    "code": "#fffb20"
+                },
+                {
+                    "name": "red-superhero",
+                    "code": "#ff3636"
+                },
+                {
+                    "name": "red-superstrong",
+                    "code": "#9c0202"
+                }
+            ],
+        "fonts": 
+            [
+                {
+                    "font_name": "Comic-Book",
+                    "h1": "80px",
+                    "h2": "40px",
+                    "p": "20px"
+                }
+            ]
+    }
+]

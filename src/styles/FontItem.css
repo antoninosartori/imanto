@@ -1,0 +1,9 @@
+.font-container{
+    width: max-content;
+    padding: 10px;
+}
+
+.fontName{
+    text-align: center;
+    font-size: 20px;
+}

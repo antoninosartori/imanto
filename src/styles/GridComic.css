@@ -1,0 +1,640 @@
+/* estilos generales para los grid items */
+.gridItem{
+    font-family: var(--fontTitle);
+    font-weight: 100;
+    outline: 2px solid var(--black);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+.gridItem .comicImg{
+    position: absolute;
+    bottom: 0;
+}
+
+/* ---    #1    --- */
+.gridItem1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(../assets/img/about/bg-yellow-red.jpg);
+    overflow: hidden;
+}
+
+.gridItem1 .comicImg{
+    width: 178px;
+    z-index: 10;
+}
+
+.gridItem1 .dialogoContainer{
+    position: absolute;
+    left: 45%;
+    top: 10px;
+}
+
+.gridItem1 .dialogoContainer .viñetaImg{
+    width: 100px;
+}
+
+.gridItem1 .dialogoContainer .viñetaParrafo{
+    position: absolute;
+    bottom: 30px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.gridItem1 .dialogoContainer-2{
+    position: absolute;
+    left: 36%;
+    bottom: -70%;
+    transition: .5s;
+    filter: drop-shadow(1px 5px 5px #000);
+}
+.gridItem1:hover .dialogoContainer-2{
+    transition: .5s;
+    bottom: -7px;
+}
+.gridItem1 .dialogoContainer-2 .viñetaImg{
+    transform: scale(-1);
+    width: 120px;
+}
+
+.gridItem1 .dialogoContainer-2 .viñetaParrafo{
+    position: absolute;
+    bottom: 30px;
+    font-size: 22px;
+    text-align: center;
+}
+
+/* ---    #2    --- */
+.gridItem2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url(../assets/img/about/bg-red.jpg);
+    transform: rotateZ(1deg);
+    z-index: 1;
+    filter: drop-shadow(1px 10px 10px #000);
+}
+
+.gridItem2 .comicImg{
+    width: 120px;
+    z-index: 10;
+    left: 30px;
+    bottom: 70px;
+    transition: 1s;
+    z-index: 10;
+}
+
+.gridItem2 .comicImg-ball{
+    position: absolute;
+    width: 28px;
+    bottom: 60px;
+    left: 43%;
+    transition: .5s;
+    z-index: 10;
+}
+
+.gridItem2:hover .comicImg-ball{
+    transform: rotate(360deg);
+    filter: drop-shadow(0px 0px 10px var(--black));
+    bottom: 50px;
+    left: 50%;
+    transition: 2s;
+}
+
+.gridItem2:hover .comicImg{
+    filter: drop-shadow(0px 0px 5px var(--black));
+    bottom: 60px;
+    left: 50px;
+    transition: 1s;
+    
+}
+
+.gridItem2 .parrafoNarrativo{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    font-size: 25px;
+    padding: 0 5px;
+    background-color: var(--yellowSuperHero);
+    border-top: 1px solid var(--black);
+}
+
+/* ---    #3    --- */
+.gridItem3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-image: url(../assets/img/about/bg-yellow.jpg);
+    background-image: url(../assets/img/about/bg-yellow.jpg);
+    transform: rotateZ(1deg);
+}
+
+.gridItem3 .comicImg {
+    width: 300px;
+    filter: drop-shadow(2px -2px 5px var(--black));
+    z-index: 10;
+}
+
+.gridItem3 .parrafoNarrativo {
+    font-size: 22px;
+    width: 80px;
+    background-color: var(--white);
+    text-align: center;
+    border-bottom: 1px solid var(--black);
+    border-right: 1px solid var(--black);
+}
+
+.gridItem3 .parrafoNarrativo-2{
+    width: 100%;
+    padding: 0 5px;
+    font-size: 30px;
+    text-align: left;
+    color: var(--redSuperHero);
+    text-shadow: 2px 2px 2px var(--black);
+    transform: rotate(-6deg);
+}
+
+/* ---    #4    --- */
+.gridItem4{
+    grid-column: 1/3;
+    grid-row: 2/4;
+    background-image: url(../assets/img/about/bg-violet.jpg);
+}
+
+.gridItem4 .comicImg{
+    width: 305px;
+    z-index: 10;
+}
+
+.gridItem4 .dialogoContainer{
+    position: absolute;
+    left: 35%;
+    top: 15px;
+    z-index: 1;
+}
+
+.gridItem4 .dialogoContainer .viñetaImg{
+    width: 200px;
+}
+
+.gridItem4 .dialogoContainer .viñetaParrafo{
+    position: absolute;
+    bottom: 60px;
+    left: 10px;
+    text-align: center;
+    width: 180px;
+    font-size: 28px;
+}
+
+.gridItem4 .dialogoContainer-2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .5s;
+    z-index: 1;
+}
+
+.gridItem4:hover .dialogoContainer-2{
+    left: 40%;
+    transition: .5s;
+}
+
+.gridItem4 .dialogoContainer-2 .viñetaImg{
+    transform: scale(-1);
+    width: 240px;
+}
+
+.gridItem4 .dialogoContainer-2 .viñetaParrafo{
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    text-align: center;
+    width: 200px;
+    font-size: 30px;
+    transform: rotate(-5deg);
+}
+
+.gridItem4 .dialogoContainer-3 {
+    position: absolute;
+    top: 70px;
+    left: 40%;
+    transform: rotate(-180deg);
+    transition: .4s;
+}
+
+.gridItem4:hover .dialogoContainer-3 {
+    top: 150px;
+    left: 60%;
+    transform: rotate(0deg);
+    transition: .4s;
+}
+
+.gridItem4 .dialogoContainer-3 .viñetaImg{
+    width: 130px;
+}
+
+.gridItem4 .dialogoContainer-3 .viñetaParrafo{
+    position: absolute;
+    bottom: 30%;
+    left: 20%;
+    font-size: 40px;
+    font-family: var(--fontSubTitle);
+    color: var(--redSuperHero);
+    text-shadow: 4px 2px 1px var(--black);
+    transform: rotate(-8deg);
+}
+
+/* ---    #5    --- */
+.gridItem5{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url(../assets/img/about/bg-blue-red.jpg);
+    overflow: hidden;
+}
+
+.gridItem5 .comicImg{
+    width: 120px;
+    right: -20px;
+    bottom: -5px;
+}
+
+.gridItem5 .dialogoContainer{
+    position: absolute;
+    bottom: 35%;
+    left: 20%;
+    transform: rotate(-10deg);
+}
+
+.gridItem5 .dialogoContainer .viñetaImg{
+    width: 140px;
+}
+
+.gridItem5 .dialogoContainer .viñetaParrafo{
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+    width: 130px;
+    bottom: 38px;
+    left: 6px;
+    transform: rotate(-6deg);
+}
+
+/* ---    #6   --- */
+.gridItem6{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-image: url(../assets/img/about/bg-yellow-red.jpg);
+    transform: rotateZ(1.5deg);
+    filter: drop-shadow(1px 10px 10px #000);
+} 
+
+.gridItem6 .comicImg{
+    width: 200px;
+    z-index: 10;
+}
+
+.gridItem6 .dialogoContainer {
+    position: absolute;
+    left: 30%;
+    bottom: 8px;
+}
+
+.gridItem6 .dialogoContainer .viñetaImg{
+    width: 200px;
+    transform: scaleX(-1);
+}
+
+.gridItem6 .dialogoContainer .viñetaParrafo{
+    position: absolute;
+    font-size: 26px;
+    padding-left: 20px;
+    text-align: center;
+    bottom: 80px;
+    width: 200px;
+}
+
+/* ---- ADAPTACIONES MOBILE ---- */
+
+/* ---- 1° adaptacion ---- */
+@media  (max-width: 992px) {
+
+.about-infoContainer{
+    padding-bottom: 300px;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(5, 200px);
+    gap: 10px;
+    }
+
+/* ---    #1    --- */
+.gridItem1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+/* ---    #2    --- */
+.gridItem2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+/* ---    #3    --- */
+.gridItem3{
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+.gridItem3 .comicImg {
+    left: calc((600px - 350px)/2);
+    width: 350px;
+    filter: drop-shadow(2px -2px 5px var(--black));
+    z-index: 10;
+}
+
+.gridItem3 .parrafoNarrativo-2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 0 5px;
+    font-size: 40px;
+    text-align: center;
+    transform: rotate(0deg);
+}
+
+/* ---    #4    --- */
+.gridItem4{
+    grid-column: 1/3;
+    grid-row: 3/5;
+}
+
+/* ---    #5    --- */
+.gridItem5{
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+/* ---    #6    --- */
+.gridItem6{
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+}
+
+/* ---- 2° adaptacion ---- */
+@media  (max-width: 640px) {
+
+.about-infoContainer{
+    padding: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 200px);
+}
+
+/* ---    #1    --- */
+.gridItem1{
+    overflow: hidden;
+}
+.gridItem1 .comicImg{
+    width: 150px;
+    z-index: 10;
+    left: -20px;
+}
+
+/* ---    #2    --- */
+.gridItem2 .comicImg{
+    left: 1vw;
+}
+
+/* ---    #3    --- */
+.gridItem3 .comicImg {
+    width: 300px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    filter: drop-shadow(2px -2px 5px var(--black));
+    z-index: 10;
+}
+
+.gridItem3 .parrafoNarrativo-2{
+    top: unset;
+    bottom: 0;
+    padding: 0 ;
+    font-size: 40px;
+    text-align: center;
+    transform: rotate(0deg);
+    z-index: 11;
+    background-color: var(--yellowSuperHero);
+    opacity: .8;
+    border-top: 1px solid var(--black);
+}
+
+/* ---    #4    --- */
+.gridItem4 .dialogoContainer{
+    left: 40%;
+}
+
+.gridItem4:hover .dialogoContainer-2{
+    left: 55%;
+}
+
+.gridItem4 .dialogoContainer-2 .viñetaImg{
+    width: 200px;
+}
+
+.gridItem4 .dialogoContainer-2 .viñetaParrafo{
+    bottom: 60px;
+    left: 30px;
+    width: 150px;
+    text-align: center;
+    font-size: 26px;
+    transform: rotate(-5deg);
+}
+
+.gridItem4:hover .dialogoContainer-3 {
+    top: 160px;
+    left: 70%;
+}
+
+/* ---    #5    --- */
+.gridItem5 .dialogoContainer{
+    left: unset;
+    right: 40%;
+}
+
+/* ---    #6    --- */
+.gridItem6{
+    overflow: hidden;
+}
+.gridItem6 .comicImg{
+    left: -20%;
+}
+.gridItem6 .dialogoContainer {
+    left:unset;
+    right: 0;
+    bottom: 8px;
+    transform: rotate(15deg);
+}
+
+.gridItem6 .dialogoContainer .viñetaImg{
+    width: 170px;
+}
+
+.gridItem6 .dialogoContainer .viñetaParrafo{
+    font-size: 24px;
+    padding: 0 10px;
+    text-align: center;
+    bottom: 68px;
+    width: 170px;
+}
+}
+
+/* ---- 3° adaptacion ---- */
+@media  (max-width: 490px){
+.about-infoContainer{
+    padding-bottom: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, 200px);
+    }
+
+/* ---    #1    --- */
+.gridItem1 .comicImg{ 
+    width: 80%;
+    z-index: 10;
+}
+
+.gridItem1 .dialogoContainer{
+    left: unset;
+    right: 5%;
+}
+
+.gridItem1 .dialogoContainer-2{
+    left: unset;
+    right: 5%;
+}
+.gridItem1:hover .dialogoContainer-2{
+    transition: .5s;
+    bottom: -7px;
+    right: 5%;
+}
+.gridItem1 .dialogoContainer-2 .viñetaImg{
+    width: 100px;
+}
+
+.gridItem1 .dialogoContainer-2 .viñetaParrafo{
+    bottom: 25px;
+    font-size: 18px;
+}
+
+/* ---    #2    --- */
+.gridItem2 .comicImg{
+    width: 120px;
+    left: 0;
+}
+
+.gridItem2:hover .comicImg{
+    bottom: 60px;
+    left: 20%;
+    transition: 1s;
+}
+
+.gridItem2 .parrafoNarrativo{
+    width: 100%;
+    font-size: 20px;
+}
+
+/* ---    #3    --- */
+.gridItem3 .comicImg {
+    width: 80%;
+}
+
+/* ---    #4    --- */
+.gridItem4{
+    grid-column: 1/3;
+    grid-row: 3/5;
+    overflow: hidden;
+}
+
+.gridItem4 .comicImg{
+    width: 70%;
+    left: -20%;
+    bottom: -20%;
+    transform: rotate(10deg);
+}
+
+.gridItem4 .dialogoContainer{
+    left: 25%;
+}
+
+.gridItem4 .dialogoContainer-2{
+    bottom: 0;
+    left: unset;
+    right: 100%;
+}
+
+.gridItem4:hover .dialogoContainer-2{
+    left: unset;
+    right: 0%;
+}
+
+.gridItem4 .dialogoContainer-2 .viñetaImg{
+    width: 180px;
+}
+
+.gridItem4 .dialogoContainer-2 .viñetaParrafo{
+    padding-left: 10px;
+    bottom: 50px;
+    left: unset;
+    right: 15px;
+    width: 150px;
+    font-size: 25px;
+    transform: rotate(-5deg);
+}
+
+.gridItem4 .dialogoContainer-3 {
+    left: unset;
+    right: 29%;
+    transform: rotate(-180deg);
+    transition: .4s;
+}
+
+.gridItem4:hover .dialogoContainer-3 {
+    left: unset;
+    right: 0;
+}
+
+/* ---    #5    --- */
+.gridItem5{
+    grid-column: 1/3;
+    grid-row: 5/6;
+}
+
+/* ---    #6    --- */
+.gridItem6{
+    grid-column: 1/3;
+    grid-row: 6/8;
+}
+
+.gridItem6 .comicImg{
+    left: unset;
+    width: 80%;
+}
+.gridItem6 .dialogoContainer {
+    left:unset;
+    right: 5%;
+    bottom: 30%;
+    transform: rotate(15deg);
+}
+
+.gridItem6 .dialogoContainer .viñetaImg{
+    width: 200px;
+}
+
+.gridItem6 .dialogoContainer .viñetaParrafo{
+    font-size: 26px;
+    padding: 0 10px;
+    text-align: center;
+    bottom: 80px;
+    width: 200px;
+}
+}

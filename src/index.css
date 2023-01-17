@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'SIMPLICITY SHADOW';
+  src: url(./assets/fonts/SIMPLICITYSHADOW.ttf);
+}
+@font-face {
+  font-family: 'SIMPLICITY';
+  src: url(./assets/fonts/SIMPLICITY.ttf);
+}
+@font-face {
+  font-family: 'SketchyComic';
+  src: url(./assets/fonts/SketchyComic.ttf);
+}
+@font-face {
+  font-family: 'Engcomica';
+  src: url(./assets/fonts/Engcomica.otf);
+}
+@font-face {
+  font-family: 'JejuGothic-Regular';
+  src: url(./assets/fonts/JejuGothic-Regular.ttf);
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: 'Comic-Book';
+  src: url(./assets/fonts/ComicBook.otf);
+}
+@font-face {
+  font-family: 'Comic-Book-Bold';
+  src: url(./assets/fonts/ComicBookBold.otf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+:root{
+  /* fuentes */
+  --fontTitleShadow: 'SIMPLICITY SHADOW', 'SIMPLICITY';
+  --fontTitle: 'SIMPLICITY';
+  --fontSubTitle: 'Engcomica';
+  --fontLogo: 'SketchyComic';
+  --fontComic: 'Comic-Book';
+  --fontComicBold: 'Comic-Book-Bold';
+
+  /* colores */
+  --black: #000000;
+  --white: #fff;
+  --yellowSuperHero: #fffb20;
+  --redSuperHero: #ff3636;
+  --redSuperHeroStrong: #9c0202;
+
+  /* sizes */
+  --fontSize-TitleShadow-lg: 100px;
+  --fontSize-Title-lg: 70px;
+  --fontSize-SubTitle-lg: 40px;
+  --fontSize-Logo-lg: 300px;
+  --fontSize-TitleShadow-md: 80px;
+  --fontSize-Title-md: 60px;
+  --fontSize-SubTitle-md: 30px;
+  --fontSize-Logo-md: 200px;
+
+  /* margenes */
+  --marginBtm: 40px; 
+  --marginTop: 40px; 
+}
+
+body{
+  background-color: #ffffff;
+  opacity: 1;
+  background-image:  radial-gradient(#ffc8c8 2px, transparent 2px), radial-gradient(#ffc8c8 2px, #ffffff 2px);
+  background-size: 80px 80px;
+  background-position: 0 0,40px 40px;
+
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+  width: 10px;
+  background-color: var(--redSuperHero);
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: var(--black);
+  border-radius: 10px;
+}
+
+.container{
+  max-width: 992px;
+  margin: 0 auto;
+}

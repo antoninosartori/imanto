@@ -1,0 +1,20 @@
+.messageSent-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messageSent-container p{
+    font-family: var(--fontSubTitle);
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.messageSuccess{
+    color: green;
+}
+
+.messageFailed{
+    color: red;
+}

@@ -1,0 +1,107 @@
+.contactForm{
+    width: 60%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.contactForm input{
+    font-weight: 100;
+    font-size: 30px;
+    font-family: var(--fontComic);
+    padding: 10px;
+    background-color: transparent;
+    color: var(--black);
+    border: none;
+}
+
+.contactForm input:focus{
+    outline: none;
+    border-bottom: 2px solid var(--black);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+    -webkit-transition-delay: 9999s;
+}
+
+.contactForm input::placeholder{
+    color: #525252;
+}
+
+.contactForm .inputName{
+    width: 90%;
+    border-bottom: 2px solid var(--redSuperHeroStrong);
+}
+
+.contactForm .inputEmail{
+    width: 90%;
+    border-bottom: 2px solid var(--redSuperHeroStrong);
+}
+
+.contactForm .inputMessage{
+    font-family: var(--fontComic);
+    font-weight: 100;
+    font-size: 30px;
+    /* color: var(--white); */
+    color: var(--black);
+    padding: 10px;
+    margin: 20px 0;
+    width: 90%;
+    border: 2px solid var(--redSuperHeroStrong);
+    background-color: transparent;
+    resize: none;
+    transform: rotate(2deg);
+}
+
+.contactForm .inputMessage::-webkit-scrollbar{
+    background-color: red;
+    width: 5px;
+}
+
+.contactForm .inputMessage::-webkit-scrollbar-thumb{
+    background-color: var(--white);
+}
+
+.contactForm .inputMessage::placeholder{
+    color: #525252;
+}
+
+.buttonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.buttonContainer button{
+    border: none;
+    font-family: var(--fontSubTitle);
+    font-size: 50px;
+    font-weight: 100;
+    padding: 10px 20px 5px 20px;
+    background-color: var(--black);
+    color: var(--white);
+    cursor:pointer;
+    text-shadow: 2px 2px 2px var(--redSuperHero);
+    transition: .3s;
+}
+
+.buttonContainer button:hover{
+    background-color: var(--redSuperHeroStrong);
+    color: var(--white);
+    text-shadow: 2px 2px 2px var(--black);
+    transition: .3s;
+}
+
+@media (max-width: 768px) {
+    .contactForm{
+        width: 95%;
+    }
+}
