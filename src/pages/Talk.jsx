@@ -15,7 +15,7 @@ const Talk = () => {
             <  TitleHeader title='talk' />
 
             <div className="contactText">
-                <h2>we can talk about anything</h2>
+                <h2>we can't talk about anything</h2>
                 <h3>i love comic by the way</h3>
             </div>
 
