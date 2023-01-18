@@ -270,7 +270,10 @@
             ],
         "links": 
             [
-                
+                {
+                    "link_name": "repo",
+                    "path": "https://github.com/antoninosartori/imanto"
+                }
             ],
         "images": 
             [

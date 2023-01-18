@@ -20,57 +20,6 @@ function App() {
 
       < AnimatedRoutes />
 
-      {/* <Routes>
-
-        < Route path='/' element=
-          { 
-            <React.Suspense
-            fallback={ < Loading /> } >
-              < LazyHome />
-            </React.Suspense>
-          } />
-
-        < Route path='/about' element=
-          { 
-            < React.Suspense
-              fallback={ < Loading /> } >
-                < LazyAbout />
-            </ React.Suspense> 
-          } />
-        
-        < Route path='/works' element=
-          { 
-            < React.Suspense
-              fallback={ < Loading /> } >
-                < LazyWorks />
-            </ React.Suspense> 
-          } />
-
-        < Route path='/work/:workId' element=
-          { 
-            < React.Suspense
-              fallback={ < Loading /> } >
-                < LazyProjectDetails />
-            </ React.Suspense> 
-          }
-        />
-        < Route path='/talk' element=
-          { 
-            < React.Suspense
-              fallback={ < Loading /> } >
-                < LazyTalk />
-            </ React.Suspense> 
-          }
-        />
-
-        < Route path='*' element=
-          { <React.Suspense
-              fallback={ < Loading /> }>
-                < LazyNotFound />
-            </React.Suspense> } 
-        />
-      </Routes> */}
-
     </div>
   )
 }
