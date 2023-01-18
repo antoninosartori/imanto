@@ -19,17 +19,14 @@ const ContactForm = () => {
         const regexEmail = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 
         if(!email || !name || !message){
-            /* return setIsNotEmpty(true); */
             return setIsNotValidated('complete all the fields');
         }
 
         if(email && !regexEmail.test(email)){
-            /* return setIsNotRegex(true); */
             return setIsNotValidated('enter a valid email');
         }
 
         if(message.length < 4){
-            /* return setIsShort(true); */
             return setIsNotValidated('please, write me something more :C');
         }
 

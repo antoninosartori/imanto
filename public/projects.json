@@ -264,7 +264,7 @@
                     "project_name": "i'm anto",
                     "project_year": "2023",
                     "project_author": "Antonino Sartori",
-                    "project_techs": "react, vite, react-router-dom, emailjs",
+                    "project_techs": "react, vite, react-router-dom, emailjs, framer-motion",
                     "isAward_winning": false
                 }
             ],
@@ -323,6 +323,64 @@
                     "font_name": "Comic-Book",
                     "h1": "80px",
                     "h2": "40px",
+                    "p": "20px"
+                }
+            ]
+    },
+    {
+        "id": 5,
+        "backdrop_path": "https://drive.google.com/uc?export=view&id=14rYGcvO0Q82dFGzYkIwUJ6bDu0TgsKgT&rl",
+        "project_title": "casa mya",
+        "overview": "simple list of products for a local business",
+        "paint_project": 
+            [
+                {
+                    "color1": "#fff",
+                    "color2": "#000",
+                    "color_bg": "#040428"
+                }
+            ],
+        "project_info": 
+            [   
+                {
+                    "project_name": "casa MyA | Productos",
+                    "project_year": "2023",
+                    "project_author": "Antonino Sartori",
+                    "project_techs": "react, vite",
+                    "isAward_winning": false
+                }
+            ],
+        "links": 
+            [
+                {
+                    "link_name": "link",
+                    "path": "https://casa-mya.vercel.app/"
+                }
+            ],
+        "images": 
+            [
+                {
+                    "image_path": "https://drive.google.com/uc?export=view&id=17nF6eM7eW_pQyF16CtLojqDV0ftIjqfe&rl",
+                    "image_description": "It is a list of products with their name, price. It has a search bar" 
+                }
+            ],
+        "colors": 
+            [
+                {
+                    "name": "blue",
+                    "code": "#040428"
+                },
+                {
+                    "name": "white",
+                    "code": "#ffffff"
+                }
+            ],
+        "fonts": 
+            [
+                {
+                    "font_name": "Montserrat",
+                    "h1": "50px",
+                    "h2": "30px",
                     "p": "20px"
                 }
             ]

@@ -35,5 +35,14 @@
         "main_image": "https://drive.google.com/uc?export=view&id=17RgS2hTnxvM7N25usv-rlyZwbBzXjLby&rl",
         "link": null,
         "link_type": "link"
+    },
+    {
+        "id": 5,
+        "title": "casa mya",
+        "subtitle": "",
+        "extra": "",
+        "main_image": "https://drive.google.com/uc?export=view&id=1Z1R2xtkSJQoEHEUnSmSP6-b_J-v6JRyB&rl",
+        "link": null,
+        "link_type": "link"
     }
 ]

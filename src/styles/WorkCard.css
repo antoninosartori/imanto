@@ -258,3 +258,38 @@
     transform: rotate(-25deg);
     left: 20px;
 }
+
+/* --- #5 --- */
+.card-5{
+    background-color: #040428;
+    font-family: var(--fontTitle);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-5 .workTitle{
+    font-size: 80px;
+    font-weight: 100;
+    text-align: center;
+    order: 1;
+}
+
+.card-5 .workImage{
+    width: 70%;
+    z-index: 1;
+    order: 2;
+}
+
+.card-5 .workNumber{
+    color: var(--white);
+    width: max-content;
+    padding: 5px;
+    font-family: var(--fontSubTitle);
+    font-weight: 100;
+    font-size: 40px;
+    order: 0;
+    
+}

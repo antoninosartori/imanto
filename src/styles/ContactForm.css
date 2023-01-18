@@ -49,18 +49,18 @@ input:-webkit-autofill:active {
     font-weight: 100;
     font-size: 30px;
     /* color: var(--white); */
-    color: var(--black);
+    color: var(--white);
     padding: 10px;
     margin: 20px 0;
     width: 90%;
     border: 2px solid var(--redSuperHeroStrong);
-    background-color: transparent;
+    background-color: var(--redSuperHeroStrong);
     resize: none;
     transform: rotate(2deg);
 }
 
 .contactForm .inputMessage::-webkit-scrollbar{
-    background-color: red;
+    background-color: var(--redSuperHeroStrong);
     width: 5px;
 }
 
@@ -69,7 +69,8 @@ input:-webkit-autofill:active {
 }
 
 .contactForm .inputMessage::placeholder{
-    color: #525252;
+    /* color: #525252; */
+    color: var(--white);
 }
 
 .buttonContainer{
