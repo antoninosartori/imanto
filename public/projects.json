@@ -37,11 +37,11 @@
             [
                 {
                     "image_path": "https://drive.google.com/uc?export=view&id=1na7EPI20pbIUOMFaiUIr4pYeFcRSvTsp&rl",
-                    "image_description": "all the matches of the first division and the second division of departmental soccer. daily news about teams and the organization, updated to the last minute" 
+                    "image_description": "all the matches of the first division and the second division of departmental soccer. daily news about teams and staff" 
                 },
                 {
                     "image_path": "https://drive.google.com/uc?export=view&id=1SipEgd_kb2CwmXsdWUjbyY_4zpXB4GIT&rl",
-                    "image_description": "The site has five sections: home, news, positions, calendar, contact. each team is represented with its name, short name and its shield. The site also has a dark mode for those who love this theme"
+                    "image_description": "The site has five sections: home, news, positions, calendar, contact. each team is represented with its name, short name and its shield. The site also has a dark mode"
                 }
             ],
         "colors": 
@@ -89,7 +89,7 @@
         "id": 2,
         "backdrop_path": "https://drive.google.com/uc?export=view&id=1CFp3LqcNOOxR1Vfqedd_EXp-UyQGCkIT&rl",
         "project_title": "pochoclo",
-        "overview": "pochoclo app is a place where you can find your favorite series and movies quickly and easily. The information is obtained thanks to the API - The movie Database",
+        "overview": "pochoclo is a movie app where you can search series and movies quickly and easily. The information is obtained thanks to the API - The movie Database",
         "paint_project": 
             [
                 {
@@ -131,7 +131,7 @@
                 },
                 {
                     "image_path": "https://drive.google.com/uc?export=view&id=1Es6Damjhp-3i8AYRqtHV8upMGn0APLu0&rl",
-                    "image_description": "a particular search by categories is also possible"
+                    "image_description": "you can search by categories, obtaining the movies or tv shows belonging to these"
                 },
                 {
                     "image_path": "https://drive.google.com/uc?export=view&id=1JOlTjw7RtgNl9KZYJFntySGuaPvoNdQE&rl",
@@ -209,7 +209,7 @@
             [
                 {
                     "image_path": "https://drive.google.com/uc?export=view&id=1fiZIeUO5PVodweeBVOiU_qqf6V42d4U-&rl",
-                    "image_description": "the site is a one page web in descending form. It has a cover section, destination, about and contact section.." 
+                    "image_description": "the site is a one page web. It has a cover section, destination, about and contact section." 
                 },
                 {
                     "image_path": "https://drive.google.com/uc?export=view&id=124SoWGo6mjm9XZDRKtyLO94Ud1P_3YR1&rl",
@@ -287,7 +287,7 @@
                 },
                 {
                     "image_path": "https://drive.google.com/uc?export=view&id=1gnOl6A--HUWPwMn798tn2ArrnXceJOV6&rl",
-                    "image_description": "The most challenging but rewarding was the comic section. It is made with pure css positioning elements and magic. I really enjoyed this part" 
+                    "image_description": "The most challenging but rewarding was the comic section. It is made with pure css positioning elements and some magic. I really enjoyed this part" 
                 },
                 {
                     "image_path": "https://drive.google.com/uc?export=view&id=10tenmppjT1B5a4jmzhcaLopoIz8Cd7aC&rl",
@@ -365,7 +365,7 @@
             [
                 {
                     "image_path": "https://drive.google.com/uc?export=view&id=17nF6eM7eW_pQyF16CtLojqDV0ftIjqfe&rl",
-                    "image_description": "It is a list of products with their name, price. It has a search bar" 
+                    "image_description": "It is a list of products with their name, price. It also has a search bar" 
                 }
             ],
         "colors": 

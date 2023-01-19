@@ -31,18 +31,18 @@ const GridComic = () => {
                 <div className="gridItem gridItem2">
                     <img className='comicImg' src={childhood} alt="antonino sartori child" />
                     <img className='comicImg-ball' src={ball} alt="ball" />
-                    <p className='parrafoNarrativo'>I started playing soccer and it's what I wanted to be</p>
+                    <p className='parrafoNarrativo'>I started playing soccer and it was what i wanted to be</p>
                 </div>
                 <div className="gridItem gridItem3">
                     <img src={friends} alt="friends" className="comicImg" />
                     <p className="parrafoNarrativo">years ago</p>
-                    <p className="parrafoNarrativo-2">Life pass by and I decided to be a pe teacher</p>
+                    <p className="parrafoNarrativo-2">Life pass by and I decided to be a p.e. teacher</p>
                 </div>
                 <div className="gridItem gridItem4">
                     <img src={myBack} alt="antonino sartori" className="comicImg" />
                     <div className="dialogoContainer">
                         <img src={talkingViñeta2}  alt="viñeta" className='viñetaImg' />
-                        <p className='viñetaParrafo'>However, life as a teacher was not as expected</p>
+                        <p className='viñetaParrafo'>However, life as a teacher was not as I expected</p>
                     </div>
                     <div className="dialogoContainer-2">
                         <img src={talkingViñeta3} alt="viñeta" className='viñetaImg' />

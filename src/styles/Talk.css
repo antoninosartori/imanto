@@ -18,8 +18,9 @@
 }
 
 .contactText h3{
+    font-family: var(--fontComic);
     font-weight: 100;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     color: var(--redSuperHero);
     text-shadow: 1px 1px 1px var(--black);
@@ -35,11 +36,19 @@
 }
 
 .contactDivisor-container .socialMedia-container{
-    flex-direction: column;
+    width: 30%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .contactDivisor-container .socialMedia-container .socialIcon-link svg{
     color: var(--redSuperHeroStrong);
+    font-size: 100px;
+}
+.contactDivisor-container .socialMedia-container .socialIcon-link:hover svg{
+    color: var(--black);
+    font-size: 100px;
 }
 
 
@@ -60,7 +69,15 @@
     }
 
     .contactDivisor-container .socialMedia-container{
-        flex-direction: row;
+        width: 100%;
+        
+        align-items: center;
+        justify-content: center;
         order: 2;
     }
+    .contactDivisor-container .socialMedia-container .socialIcon-link svg{
+        
+        font-size: 40px;
+    }
+    
 }

@@ -82,22 +82,23 @@ input:-webkit-autofill:active {
 }
 
 .buttonContainer button{
+    background-color: transparent;
     border: none;
+    cursor:pointer;
     font-family: var(--fontSubTitle);
+    color: var(--redSuperHeroStrong);
     font-size: 50px;
     font-weight: 100;
-    padding: 10px 20px 5px 20px;
-    background-color: var(--black);
-    color: var(--white);
-    cursor:pointer;
-    text-shadow: 2px 2px 2px var(--redSuperHero);
+    border-bottom: 3px solid var(--redSuperHeroStrong);
+    line-height: 40px;
+    transform: rotate(-8deg);
+    text-shadow: 2px 2px 2px var(--black);
     transition: .3s;
 }
 
 .buttonContainer button:hover{
-    background-color: var(--redSuperHeroStrong);
-    color: var(--white);
-    text-shadow: 2px 2px 2px var(--black);
+    color: var(--black);
+    border-bottom: 3px solid var(--black);
     transition: .3s;
 }
 

@@ -16,7 +16,7 @@ const Talk = () => {
 
             <div className="contactText">
                 <h2>we can talk about anything</h2>
-                <h3>i love comic by the way</h3>
+                <h3>i'll love to talk with you</h3>
             </div>
 
             <div className="contactDivisor-container">
