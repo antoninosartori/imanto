@@ -6,6 +6,8 @@ import { SocialIcon } from './SocialIcon';
 //assets
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
+import { AiFillInstagram } from "react-icons/ai";
+import { AiFillTwitterCircle } from "react-icons/ai";
 
 const socialMediasArr = [
     {
@@ -19,6 +21,18 @@ const socialMediasArr = [
         Icon: AiFillGithub, 
         socialName: 'github',
         linkMedia: 'https://github.com/antoninosartori'
+    },
+    {
+        id: 12,
+        Icon: AiFillInstagram, 
+        socialName: 'instagram',
+        linkMedia: 'https://www.instagram.com/antoninosartori/'
+    },
+    {
+        id: 13,
+        Icon: AiFillTwitterCircle, 
+        socialName: 'twitter',
+        linkMedia: 'https://twitter.com/AntoninoS27/'
     },
 ]
 

@@ -112,7 +112,11 @@
             [
                 {
                     "link_name": "repo",
-                    "path": "https://github.com/antoninosartori/platzi-moviesApp"
+                    "path": "https://github.com/antoninosartori/pochocloApp"
+                },
+                {
+                    "link_name": "link",
+                    "path": "https://pochoclo-app.vercel.app/"
                 }
             ],
         "images": 
