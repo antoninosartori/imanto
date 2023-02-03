@@ -9,7 +9,7 @@ const TechItem = ({name, background, strength}) => {
                 <img className='techItemImg' src={background} alt={name} />
             }
             <div className="overlayTech">
-                {!!strength ? <span className='overlayText'>strong</span> : <span className='overlayText'>intermediate</span>}
+                {!!strength ? <span className='overlayText'>💪🏻🦸🏻‍♂️</span> : <span className='overlayText'>🤷🏻‍♂️👍🏻</span>}
             </div>
         </div>
     )
