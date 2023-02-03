@@ -16,6 +16,7 @@
 }
 
 .miniProjects-container{
+    padding-top: 100px;
     max-width: 992px;
     margin: 0 auto;
     display: grid;
